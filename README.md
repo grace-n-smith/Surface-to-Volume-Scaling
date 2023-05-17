@@ -13,6 +13,6 @@ Creates eclipse images--for every curated cell, there is an image that has all c
 ## lineprofiler.m
 Takes 360 line profiles on each eclipse image and plots analysis.
 ![alt text](https://i.imgur.com/MTHVZ4R.jpeg)
-![alt text](https://imgur.com/a/wA9JRDj)
-![alt text](https://imgur.com/a/4uX2Rwq)
-![alt text](https://imgur.com/a/kEiSpW2)
+![alt text](https://i.imgur.com/1bPc4aq.jpeg)
+![alt text](https://i.imgur.com/cptcR2w.jpeg)
+![alt_text](https://i.imgur.com/Vsa0hdf.jpeg)
