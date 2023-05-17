@@ -5,7 +5,7 @@ A MATLAB wokflow for analyzing cell line profiles in light microscopy images for
 Reads every DeltaVision image in specified folder and identifies possible cells using built-in 'TwoStage' method. 
 
 ## curatedcutouts.m
-Saves each potential cell as a 'cutout' and 'key' image. These help eliminate invalid cells from the circle finder and adjust position and radii.
+Saves each potential cell as a 'cutout' and 'key' image. These allow manual curation to help eliminate invalid cells from the circle finder, adjust position and radii.
 
 ## cookiecutter.m
 Creates eclipse images--for every curated cell, there is an image that has all cells other than the cell of interest blacked out to prevent line profile collisions.
