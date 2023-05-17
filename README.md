@@ -1,5 +1,5 @@
 # Surface-to-Volume-Scaling
-A MATLAB wokflow for analyzing cell line profiles in light microscopy images. The code is to be compiled in four modular parts.
+A MATLAB wokflow for analyzing cell line profiles in light microscopy images for quanitfying amount of cell membrane relative to size. The code is to be compiled in four modular parts.
 
 ## read_dv.m
 Reads every DeltaVision image in specified folder and identifies possible cells using built-in 'TwoStage' method. 
