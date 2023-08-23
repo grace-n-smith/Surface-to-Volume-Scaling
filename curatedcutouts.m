@@ -29,7 +29,7 @@ date = datetime(2023,5,10);
 varNames = ["imageID", "im_num", "cellID", "radius", "z_position", "t_position", "x_pos", "y_pos", "curated", "omit", "edited", "comment"];
 
 % SUMMON THE DATA
-datatable = readcell("E:\Analyses\10-May-2023\datatable_20-Mar-2023_curation rep2.xlsx");
+datatable = readcell("E:\Analyses\10-May-2023\datatable_20-Mar-2023_curation rep2 4.xlsx");
 
 %%
 
@@ -40,12 +40,15 @@ indices = zeros(num_of_files, 1);
 
 % this array says where the beginning of the data is for each image
 prev = 0;
-for row  = 2:vert %starts at 2 because of title row
+for row  = 1:vert
     if datatable{row, 2} ~= prev
         indices(datatable{row, 2}, 1) = row;
     end
     prev = datatable{row, 2};
+    %disp(indices)
 end
+indices = indices(1:30,:);
+indices(30, 1) = 195;
 
 %%
 

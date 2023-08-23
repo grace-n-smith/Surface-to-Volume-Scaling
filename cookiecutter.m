@@ -48,7 +48,10 @@ for row  = 1:vert
         indices(datatable{row, 2}, 1) = row;
     end
     prev = datatable{row, 2};
+    %disp(indices)
 end
+indices = indices(1:30,:);
+indices(30, 1) = 195;
 %%
 
 for im_num = 1:num_of_files

@@ -3,7 +3,7 @@ set(0,'DefaultFigureVisible','off') % only save figures to filesystem
 %set(0,'DefaultFigureVisible','on') % display figures as they are created
 
 %%% PROVIDE PATH TO FOLDER WITH IMAGES 
-pathToIms = "E:\Light microscopy\normal_vs_polyploidy\08-08-2022_L1210_FUCCI_Membrane_Barasertib_osmotic-shock_rep2\";
+pathToIms = "E:\Light microscopy\normal_vs_polyploidy\08-08-2022_L1210_FUCCI_Membrane_Barasertib_osmotic-shock_rep1\";
 %%% PROVIDE PATH TO FOLDER FOR ANALYSES
 pathToAnalyses = "E:\Analyses\";
 %path_to_analyses = "C:\Users\Lenovo\Documents\Local UROP data\Analyses\";
